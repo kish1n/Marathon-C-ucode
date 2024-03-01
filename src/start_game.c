@@ -16,10 +16,10 @@ int start_game(SDL_Window* window, SDL_Renderer* render) {
     }
 
     SDL_Texture* active_bg[4];
-        active_bg[0] = load_texture("resource/static/second_room/room-floor/second-room-floor.PNG", render);
-        active_bg[1] = load_texture("resource/static/first_room/room-floor/first-room-floor.PNG", render);
-        active_bg[2] = load_texture("resource/static/second_room/room-floor/second-room-floor.PNG", render);
-        active_bg[3] = load_texture("resource/static/third_room/room-floor/third-room-floor.PNG", render);
+        active_bg[0] = load_texture("resource/static/second_room/room-floor/room-floor.PNG", render);
+        active_bg[1] = load_texture("resource/static/first_room/room-floor/room-floor.PNG", render);
+        active_bg[2] = load_texture("resource/static/second_room/room-floor/room-floor.PNG", render);
+        active_bg[3] = load_texture("resource/static/third_room/room-floor/room-floor.PNG", render);
 
     SDL_Texture* mainHeroTexture = IMG_LoadTexture(render, "resource/static/mh.PNG");
 
